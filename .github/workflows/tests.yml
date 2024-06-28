@@ -38,6 +38,6 @@ jobs:
       run: rfbrowser init 
 
     - name: Run E2E Tests
-      Run: robot -d ./logs -i smoke tests
+      run: robot -d ./logs -i smoke tests
 
     
